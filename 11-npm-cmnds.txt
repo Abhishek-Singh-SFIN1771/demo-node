@@ -11,3 +11,11 @@ package.json - manifest file (stores impotant info about project/package)
 manual approach (create package.json in the root,  create properties etc)
 -> npm init (step by step, press enter to skip)
 -> npm init -y (everything default)
+
+if we doesn't pushed some files to githud repository and added them into .gitignore then we can clone our repo open it aother folder and ther we can run command npm install if we have package.json all needed dependecies will be configured and install
+-> git clone repo-url
+-> npm install
+
+instal nodemon a devdependencies 
+(-D means devdependencies)
+-> npmm i nodemon -D
